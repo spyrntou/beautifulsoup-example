@@ -16,7 +16,7 @@ for script in html_soup(["script", "style"]):
 
 c=[] # we initialize value to store all urls
 # get all pages
-q='it'
+q='it'  # change your q here
 for page in range(1 ,400):
     sec=0.5
     time.sleep(sec)
