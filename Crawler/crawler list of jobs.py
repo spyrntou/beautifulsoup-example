@@ -124,3 +124,5 @@ for i in range(len(append_links)):
     for h3_tag1 in news_content.find_all('h3'):
         h3_tag1.replace_with('')
     print(news_content.text.replace("\n", ""))
+
+    
