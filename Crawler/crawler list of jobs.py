@@ -135,3 +135,4 @@ jobdata_crawl = { "Job informations": {'url': url,'Τίτλος Δουλειάς
 with open('jobdata.json', 'w') as json_file:
     json.dump(jobdata_crawl , json_file)
 
+#https://stackoverflow.com/questions/12994442/how-to-append-data-to-a-json-file

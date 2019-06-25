@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f366ae9-2c17-47cc-bf76-3b46a4e35e53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Crawler/jobdata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crawler/Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Crawler/Data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Crawler/crawler list of jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crawler/crawler list of jobs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Crawler/crawler list of jobs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="129" column="81" selection-start-line="129" selection-start-column="81" selection-end-line="129" selection-end-column="81" />
+            <state relative-caret-position="604">
+              <caret line="137" column="79" selection-start-line="137" selection-start-column="79" selection-end-line="137" selection-end-column="79" />
               <folding>
                 <element signature="e#255#270#0" expanded="true" />
               </folding>
@@ -82,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1358" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -244,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Crawler/crawler list of jobs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="129" column="81" selection-start-line="129" selection-start-column="81" selection-end-line="129" selection-end-column="81" />
+        <state relative-caret-position="604">
+          <caret line="137" column="79" selection-start-line="137" selection-start-column="79" selection-end-line="137" selection-end-column="79" />
           <folding>
             <element signature="e#255#270#0" expanded="true" />
           </folding>
