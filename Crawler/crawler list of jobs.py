@@ -4,12 +4,10 @@ __maintainer__ = "Spyros Ntouroukis"
 __email__ = "spyros-ntouroukis@hotmail.com"
 __script_infos__ = "This is the part to crawl page number from kariera site"
 
-import requests
 import re
 from requests import get
 import requests
 from bs4 import BeautifulSoup
-import time
 import json
 from time import sleep
 
@@ -73,7 +71,6 @@ print("------------------------ crawle jobs per page ------------------------")
 # this part crawl the job page
 
 for i in range(len(append_links)):
-    sleep(0.05)
     url = append_links[i]
     response = get(url)
     #print(response.text[:500])
@@ -87,7 +84,7 @@ for i in range(len(append_links)):
         script.extract()  # removing styles and scripts
     text = html_soup.find_all('div', class_="col-2 small full-mobile")
     if len(text)==0:
-        print("Cnt crawl this page yet , we need to customize code to crawl this page :",url)
+        print("Can;t crawl this page yet , we need to customize code to crawl this page :",url)
         not_crawled_pages.append(url)
 
     else:
