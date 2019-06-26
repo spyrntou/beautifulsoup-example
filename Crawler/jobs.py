@@ -1,6 +1,7 @@
 # this is a singe job page crawler for kariera gr site
 
 import re
+from requests import get
 import requests
 from bs4 import BeautifulSoup
 
@@ -58,7 +59,9 @@ for h3_tag in kodikos.find('h3'):
     h3_tag.replace_with('')
 print(h3_tag ,":", kodikos.text.replace("\n", ""))
 
-news_content = perigrafi.find("h3", {'class': 'pb'})
-for h3_tag1 in news_content.find_all('h3'):
-    h3_tag1.replace_with('')
-print( news_content.text.replace("\n",""))
+
+# this is additional code not need atm
+#news_content = perigrafi.find("h3", {'class': 'pb'})
+#for h3_tag1 in news_content.find_all('h3'):
+#    h3_tag1.replace_with('')
+#print(news_content.text.replace("\n", ""))
