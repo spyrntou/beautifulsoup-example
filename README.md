@@ -10,3 +10,4 @@ this is a web crawl project
 what next:
   finished storing data on json
   storing data to database (mysql)
+  ongoing change code from BeautifulSoup to Scrapy
