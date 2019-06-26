@@ -1,6 +1,6 @@
 # master
 
-this is a project about web crawler
+this is a web crawl project 
 
 
   Open folder Crawler, main script: crawler list of jobs.py
