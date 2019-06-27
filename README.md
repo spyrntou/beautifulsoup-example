@@ -8,6 +8,6 @@ this is a web crawl project
   file jobdata.json stores job crawled data ( "Job informations": {'url','Τίτλος Δουλειάς','Εταιρία:', 'Απασχοληση','Περιοχή','kodikos thesis'})
   
 what next:
-  finished storing data on json
+  finish store data on json - not need any longer - 
   storing data to database (mysql)
   ongoing change code from BeautifulSoup to Scrapy
