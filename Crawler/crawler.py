@@ -12,7 +12,7 @@ pages = set()
 def get_links(page_url):
     global pages
     pattern = re.compile("^(/)")
-    html = requests.get(f"https://www.kariera.gr/θέσεις-εργασίας?q=it").text  # fstrings require Python 3.6+
+    html = requests.get(f"https://www.example.gr/job_position?q=it").text  # fstrings require Python 3.6+
     soup = BeautifulSoup(html, "html.parser")
     for link in soup.find_all("a", href=pattern):
         if "href" in link.attrs:
