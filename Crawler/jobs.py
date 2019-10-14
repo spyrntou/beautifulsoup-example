@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 
 
 
-url = 'https://www.kariera.gr/θέση-εργασίας/junior-system-administrator-j2y0pt61dz2fbky6yz6?ipath=INTLMRCJ'
-#url = 'https://www.kariera.gr/θέση-εργασίας/καθηγητής-πληροφορικής-jdh8gc5w416bjstwcmh'
+url = 'https://www.example.gr/example/junior-system-administrator-j2y0pt61dz2fbky6yz6?ipath=INTLMRCJ'
+#url = 'https://www.example.gr/example/καθηγητής-πληροφορικής'
 response = get(url)
 print(response.text[:500])
 

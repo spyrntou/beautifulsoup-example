@@ -1,4 +1,4 @@
-# master
+# beautifulsoup-example
 
 this is a web crawl project 
 

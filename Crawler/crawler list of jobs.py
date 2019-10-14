@@ -2,7 +2,7 @@ __author__ = "Spyros Ntouroukis"
 __version__ = "1.0.1"
 __maintainer__ = "Spyros Ntouroukis"
 __email__ = "spyros-ntouroukis@hotmail.com"
-__script_infos__ = "This is the part to crawl page number from kariera site"
+__script_infos__ = "This is the part to crawl page number "
 
 import re
 from requests import get
@@ -15,8 +15,8 @@ from time import sleep
 print("------------------------ Script just started ------------------------")
 
 #initializing the page
-domain = 'https://www.kariera.gr'
-url = 'https://www.kariera.gr/θέσεις-εργασίας'
+domain = 'https://www.example.gr'
+url = 'https://www.example.gr/jobpossition'
 q='it'  # change your q here future improvement to ask user to enter q keyword
 response = get(url + '?q=' +str(q))
 
